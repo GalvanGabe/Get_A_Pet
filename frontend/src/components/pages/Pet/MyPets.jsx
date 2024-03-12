@@ -4,7 +4,7 @@ import styles from './Dashboard.module.css'
 
 import { useState, useEffect } from "react"
 
-import {Link, Navigate, useNavigate} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 import RoundedImage from '../../layout/RoundedImage'
 
@@ -12,7 +12,6 @@ import RoundedImage from '../../layout/RoundedImage'
 import useFlashMessage from '../../../hooks/useFlashMessage'
 
 function MyPets() {
-    const navigate = useNavigate()
     const [pets, setPets] = useState([])
     const [token] = useState(localStorage.getItem('token') || '')
     const {setFlashMessage} = useFlashMessage()
