@@ -33,10 +33,10 @@ Um website de adoção de animais de estimação com sistema CRUD de (usuários 
 # Resources used / Recursos utilizados
 - HTML
 - CSS
-- React Icons
 - Javascript
 - NodeJS
 - ReactJS
+- React-Router-Dom
 - Express
 - Bcryptjs
 - Cors
